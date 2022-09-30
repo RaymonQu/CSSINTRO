@@ -2,15 +2,22 @@
   width: 350px;
   height: 500px;
   /* finish your styling of the cover div here! */
+  background-color: grey;
 }
 #title {
-
+  font-size: 45pt;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #subtitle {
-
+  color: aqua;
+  text-align: center;
+  font-size: 16pt;
+  opacity: 60%;
+  margin-right: 160px;
 }
 
 #cover_image {
-
+  
 }
