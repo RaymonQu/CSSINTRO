@@ -1,24 +1,72 @@
 .page {
-  width:
-  height:
+  width: 400px;
+  height: 700px;
+  background-color: #d8d6d2;
+}
+
+@font-face {
+  font-family:'Anton';
+  src:url(fonts/Anton/Anton-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'Oswald';
+  src:url(fonts/Oswald/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'Railway';
+  src:url(fonts/Railway/Railway.ttf) format('truetype');
 }
 
 #article_title {
+  color: #531f32;
+  font-family: 'Anton';
+  letter-spacing: 5px;
+  font-size: xx-large;
+  padding-top: 25px;
+  padding-left: 20px;
 
 }
 
 #intro {
+  color: #91474d;
+  font-family: 'Oswald';
+  line-height: 48px;
+  padding-left: 20px;
+  margin-right: 20px;
 
 }
 
 .question{
+  color: #687077;
+  font-weight: 800;
+  font-family: 'Railway';
+  padding-left: 15px;
+  margin-bottom: 0;
+  margin-right: 40px;
 
 }
 
 .answer{
+  color: #687077;
+  font-weight: 500;
+  font-family: 'Railway';
+  padding-left: 15px;
+  margin-top: 0;
+  margin-right: 20px;
 
 }
 
 #block_quote {
-
+  color: #91474d;
+  font-size: larger;
+  font-family: 'Oswald';
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 5px black solid;
+  border-radius: 100px;
 }

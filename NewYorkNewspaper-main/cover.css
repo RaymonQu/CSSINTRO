@@ -3,21 +3,34 @@
   height: 500px;
   /* finish your styling of the cover div here! */
   background-color: grey;
+  background-image: url(images/newyork.jpg);
 }
+
 #title {
-  font-size: 45pt;
+  font-size: 40pt;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  margin-top: 0;
+  text-shadow: 10px 10px rgba(0, 0, 0, .2);
 }
 
 #subtitle {
   color: aqua;
-  text-align: center;
   font-size: 16pt;
   opacity: 60%;
-  margin-right: 160px;
+  text-align: right;  
+  padding-right: 48px;
+  margin-top: 0px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #cover_image {
-  
+  height: 150px;
+  width: 250px;
+  display: block;
+  margin-left: 45px;
+  margin-right: 45px;
+  border: 10px black solid;
 }
